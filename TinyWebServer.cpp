@@ -979,7 +979,11 @@ void TinyWeb::begin() {
 
   Serial.print(F("WIFI Mode "));
   Serial.println(WiFi.getMode());
-
+  // if no SSID name  set hostname and softap ssid to default
+  if (WiFi.SSID().length() == 0) { 
+    setHostname("");
+    WiFi.softAP(_hostname);
+  }
 
 
   // la config est en flash coté module WIFI
