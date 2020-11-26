@@ -1,12 +1,15 @@
 // src test file to validate the lib TinyWeb
 // cleaner version of WebServer (C) V1.0.1 6/6/2020  NET234 P.HENRY
 //
+
+//   pierre participe a cette lib
 // jules et sur le code 
+
 #include <Arduino.h>
 
 
 #define LED_LIFE      LED_BUILTIN
-#define APP_VERSION   "TinyWeb Validate V1.0"
+#define APP_VERSION   "TinyWeb Validate V1.0A"
 
 #define LED_ON        LOW
 //Objet serveur WEB
