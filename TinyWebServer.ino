@@ -1,7 +1,12 @@
 // src test file to validate the lib TinyWeb
 // cleaner version of WebServer (C) V1.0.1 6/6/2020  NET234 P.HENRY
 //
+
 //   pierre participe a cette lib
+//   pierre (simple utilisateur) participe a cette lib
+// jules et sur le code 
+
+
 #include <Arduino.h>
 
 
