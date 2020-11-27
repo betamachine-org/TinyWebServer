@@ -3,7 +3,9 @@
 //
 
 //   pierre participe a cette lib
+//   pierre (simple utilisateur) participe a cette lib
 // jules et sur le code 
+
 
 #include <Arduino.h>
 
